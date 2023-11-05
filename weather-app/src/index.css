@@ -1,0 +1,37 @@
+/* index.css */
+
+.weather {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.weather h2 {
+  text-align: center;
+  color: #333;
+}
+
+.weather form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.weather input {
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.weather input[type="text"] {
+  width: 100%;
+}
+
+.weather button {
+  padding: 8px;
+  background-color: #007bff;
+  color: #fff
+}
